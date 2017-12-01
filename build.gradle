@@ -18,10 +18,10 @@ repositories {
 
 dependencies {
     compile 'ro.pippo:pippo-core:1.6.+'
+    compile 'ro.pippo:pippo-undertow:1.6.+'
     compile 'ro.pippo:pippo-freemarker:1.6.+'
     compile 'ro.pippo:pippo-jackson:1.6.+'
-    //compile "javax.servlet:javax.servlet-api:4.0.+"
+    compile 'org.slf4j:slf4j-simple:1.7.+'
 
     testCompile 'junit:junit:4.12'
-    testCompile 'org.mockito:mockito-core:2.10.+'
 }
