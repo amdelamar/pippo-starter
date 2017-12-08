@@ -16,6 +16,13 @@ A simple Java webapp in Pippo framework.
 1. Start server `java -jar build/libs/pippo-starter-0.1.0-all.jar`
 1. Visit [http://localhost:8080/](http://localhost:8080/) to see the app running.
 
+## Run in Docker
+
+1. Run build `./gradlew clean build`
+1. Build image `docker build -t pippo-starter .`
+1. Run container `docker run -p 8080:8080 pippo-starter`
+1. Visit [http://localhost:8080/](http://localhost:8080/) to see the app running.
+
 ## License
 
 [MIT](/LICENSE)
